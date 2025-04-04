@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Software - Osmosis</title>
+    <style>
+        body {
+            line-height: 1.6;
+            font-size: 18px;
+            padding: 0 20px;
+            margin: 50px auto;
+            max-width: 650px;
+            font-family: "Times New Roman", Georgia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, serif;
+            color: #2d3748;
+            background-color: #fafafa;
+        }
+
+        #maincontent {
+            max-width: 42em;
+            margin: 15px auto;
+            padding: 0 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            color: #1a202c;
+        }
+
+        p {
+            margin-bottom: 1.5em;
+            text-align: justify;
+            hyphens: auto;
+        }
+
+        a {
+            color: #2563eb;
+            text-decoration: none;
+            border-bottom: 1px solid;
+            transition: all 0.2s ease;
+            padding-bottom: 1px;
+            position: relative;
+            display: inline-block;
+        }
+
+        a:hover {
+            color: #1d4ed8;
+            border-bottom-width: 2px;
+            transform: translateY(-1px);
+            box-shadow: 0 2px 4px rgba(37, 99, 235, 0.1);
+        }
+
+        .back-link {
+            margin-bottom: 2em;
+            display: inline-block;
+            font-size: 0.95em;
+            color: #4a5568;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                font-size: 16px;
+                padding: 0 15px;
+            }
+            
+            #maincontent {
+                padding: 0 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="maincontent" style="margin-top:70px">
+        <a href="index.html" class="back-link">← Back</a>
+        <h1>Responsive Software</h1>
+        <p>
+            Software has changed a lot since its infancy in the 1950s. However – from early mainframes and monolithic
+            architectures to modern unstructured databases and distributed architectures – the fundamental pattern has
+            remained the same: moving data to a central location for processing. The technology has changed from
+            mainframes to SQL databases to cloud data warehouses & lakehouses, but the core pattern of data
+            centralization persists.
+        </p>
+        <p>
+            This doesn't make sense anymore. The volume of data organizations need to store and process is
+            ever-increasing, and importantly, we've reached the point where real-time needs begin to balloon. Companies
+            on the bleeding edge of technology (e.g. TikTok's <a href="https://arxiv.org/pdf/2209.07663" target="_blank"
+                rel="noopener noreferrer">real-time recommendations</a>, Stripe's <a
+                href="https://stripe.com/blog/shepherd-how-stripe-adapted-chronon-to-scale-ml-feature-development"
+                target="_blank" rel="noopener noreferrer">fraud detection models</a>) also recognize this.
+        </p>
+        <p>
+            AI in particular demands real-time data. While pre-training spurred initial improvements with LLMs,
+            post-training reinforcement learning (i.e. like <a href="https://arxiv.org/abs/2501.12948" target="_blank"
+                rel="noopener noreferrer">DeepSeek-R1</a>) will power further advancements. Today, brittle AI agents
+            struggle with fluid workflows that demand constant adaptation. In order for them to learn on the fly, AI
+            agents need to process & act on new information in real-time.
+        </p>
+        <p>
+            The current improvement loop for AI, with human intervention, is manual and time-consuming. What's become
+            abundantly clear to us is that human data should no longer be the gold standard now that models are able to
+            self-improve. A more elegant approach would be to merge inference costs with training costs, and simply
+            train AI on its own outputs to move towards real-time responsiveness.
+        </p>
+        <p>
+            Right now is an especially exciting time to be working on software, and we think what's being done with
+            real-time data (across consumer, fintech, AI, and more) is just the beginning.
+        </p>
+        <p>
+            We're captivated by the concept of a future full of responsive software. Where dynamic traffic lights and
+            routing alleviate city congestion. Where daily chores can be automated without manual prompting. Where
+            proactive detection of health concerns can save lives.
+        </p>
+        <p>
+            We want to make that future a reality.
+        </p>
+    </div>
+</body>
+
+</html>
